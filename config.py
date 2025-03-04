@@ -12,7 +12,7 @@ class DevelopmentConfig(Config):
     DEBUG = True
     IP_HOST = "localhost"
     PORT_HOST = 8000
-    URL_MAIN = "http://%s:%s" % (IP_HOST, PORT_HOST) #http://localhost:8000
+    URL_MAIN = f"http://{IP_HOST}:{PORT_HOST}" #http://localhost:8000
 
 app_config = {
     "development": DevelopmentConfig(),
