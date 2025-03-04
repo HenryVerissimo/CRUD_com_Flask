@@ -9,7 +9,7 @@ class Config(object):
 
 class DevelopmentConfig(Config):
     TESTING = True
-    DEBUG = False
+    DEBUG = True
     IP_HOST = "localhost"
     PORT_HOST = 8000
     URL_MAIN = "http://%s:%s" % (IP_HOST, PORT_HOST) #http://localhost:8000
