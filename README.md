@@ -9,10 +9,10 @@
 
 - **Python 3.12**: Linguagem de programação utilizada.
 - **MySQL 8.0.41**: Para armazenar os dados.
-- **Flask**: Para rotas, renderização de templates e gerenciamento de requisições.
+- **Flask 3.1.0**: Para rotas, renderização de templates e gerenciamento de requisições.
 
-- **SQLAlchemy**: ORM para comunicação com o banco de dados.
-- **Jinja2**: Motor de templates para páginas HTML.
+- **Flask-SQLAlchemy 3.1.1**: ORM para comunicação com o banco de dados.
+- **Jinja2 3.1.5**: Motor de templates para páginas HTML.
 
  ---
 
